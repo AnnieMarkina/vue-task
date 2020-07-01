@@ -1,0 +1,46 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.main {
+  position: relative;
+
+  &__img {
+    &--left {
+      border: 1px solid red;
+      overflow: hidden;
+      position: absolute;
+      width: 238px;
+      height: 331px;
+      left: 229.19px;
+      top: 201.76px;
+      transform: rotate(1.1deg);
+      
+    }
+    &--center {
+      border: 1px solid red;
+      overflow: hidden;
+      position: absolute;
+      width: 476px;
+      height: 702px;
+
+      object-fit: cover;
+      left: 491.27px;
+      top: 73.89px;
+      transform: rotate(1.5deg);
+    }
+
+    &--right {
+      border: 1px solid red;
+      overflow: hidden;
+      position: absolute;
+      width: 345px;
+      height: 238px;
+      left: 890.32px;
+      top: 494.97px;
+      transform: rotate(2.03deg);
+      object-position: top;
+    }
+  }
+}

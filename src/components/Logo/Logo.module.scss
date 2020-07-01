@@ -1,0 +1,18 @@
+.header {
+  &__logo {
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    h1 {
+      font-family: 'Ultra', serif;
+      font-size: 16px;
+      line-height: 16px;
+      width: 102px;
+      height: 16px;
+      margin: 0;
+    }
+  }
+}

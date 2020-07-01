@@ -1,0 +1,31 @@
+.banner {
+  &__svg {
+    display: relative;
+    color: red;
+  }
+
+  img {
+    display: relative;
+    left: 50%;
+  }
+}
+
+  #svg {
+    position: absolute;
+    top: 7px;
+    left: 28%;
+    width: 608.38px;
+    height: 726.48px;
+    stroke-dasharray: 1917.79;
+    stroke-dashoffset: 0;
+    animation: dash 5s linear alternate;
+  }
+
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 1917.79;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
