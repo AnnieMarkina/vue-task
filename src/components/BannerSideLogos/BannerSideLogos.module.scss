@@ -1,0 +1,8 @@
+.banner {
+  &__parts {
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0, 220%);
+    overflow: hidden;
+  }
+}

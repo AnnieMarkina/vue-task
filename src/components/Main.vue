@@ -7,8 +7,14 @@
 
     <section class="banner">
       <BannerSvg />
-      <MainImgs />
+      <BannerImgs />
+      <BannerLogo />
+      <BannerSideLogos />
     </section>
+
+    <footer class="footer">
+      <Footer />
+    </footer>
   </div>
 </template>
 
@@ -16,7 +22,10 @@
 import NavList from "@/components/NavList/NavList";
 import Logo from "@/components/Logo/Logo";
 import BannerSvg from "@/components/BannerSvg/BannerSvg";
-import MainImgs from "@/components/MainImgs/MainImgs";
+import BannerImgs from "@/components/BannerImgs/BannerImgs";
+import BannerLogo from "@/components/BannerLogo/BannerLogo";
+import BannerSideLogos from "@/components/BannerSideLogos/BannerSideLogos";
+import Footer from "@/components/Footer/Footer";
 
 export default {
   name: "Main",
@@ -34,7 +43,10 @@ export default {
     Logo,
     NavList,
     BannerSvg,
-    MainImgs,
+    BannerImgs,
+    BannerLogo,
+    BannerSideLogos,
+    Footer,
   }
 };
 </script>

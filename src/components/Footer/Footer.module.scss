@@ -1,0 +1,36 @@
+.footer {
+  &__links {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 112px;
+    height: 14px;
+    bottom: 0;
+    margin-left: 48px;
+    margin-bottom: 47px;
+  }
+
+  &__link {
+    a {
+      text-decoration: none;
+      color: black;
+      
+      span {
+        font-family: "TTravels Extra Light", sans-serif;
+        font-size: 13px;
+        line-height: 13px;
+      }
+    }
+  }
+}
+
+#rectangle {
+  width: 56px;
+height: 1px;
+left: 81px;
+top: 808px;
+
+background: #393939;
+opacity: 0.24;
+}

@@ -1,4 +1,5 @@
-header {
+#main {
+  header {
     padding-left: 47px;
     padding-right: 47px;
     padding-top: 40px;
@@ -6,3 +7,9 @@ header {
     justify-content: space-between;
     flex-direction: row;
   }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+}

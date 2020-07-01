@@ -5,16 +5,12 @@
   font-style: normal;
 }
 
-// @font-face {
-//   font-family: "TT Travels";
-//   src: url("../helpers/fonts/Mont-SemiBold.otf") format("otf");
-//   font-weight: 600;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: "TTravels Extra Light";
+  src: url("./assets/fonts/TT_Travel/TTTravels-ExtraLight.ttf") format("ttf");
+}
 
-// @font-face {
-//   font-family: "TT Travels";
-//   src: url("../helpers/fonts/Mont-Bold.otf") format("otf");
-//   font-weight: 700;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: "Schnyder X Cond L Light";
+  src: url("./assets/fonts/Schnyder_Cond/Schnyder_X_Cond_L_Light.otf") format("otf");
+}

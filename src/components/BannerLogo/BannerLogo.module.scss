@@ -1,0 +1,21 @@
+.banner {
+  &__container {
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    transform: translate(-33%, -50%);
+
+
+    h1 {
+      padding: 0;
+      font-family: "Schnyder X Cond L Light";
+      color: #580300;
+      mix-blend-mode: darken;
+      text-transform: uppercase;
+      font-size: 125.581px;
+      line-height: 86%;
+      font-weight: normal; 
+      text-align: center;
+    }
+  }
+}
