@@ -8,8 +8,11 @@
     flex-direction: row;
   }
 
-  footer {
-    position: absolute;
+  .banner {
+    border: 2px solid yellow;
+  }
+
+  .footer {
     bottom: 0;
   }
 }

@@ -5,7 +5,6 @@
     left: 41%;
     transform: translate(-33%, -50%);
 
-
     h1 {
       padding: 0;
       font-family: "Schnyder X Cond L Light";
@@ -16,6 +15,27 @@
       line-height: 86%;
       font-weight: normal; 
       text-align: center;
+    }
+  }
+}
+
+@media (max-width: 1223px) {
+  .banner {
+    &__container {
+      h1 {
+        font-size: 96px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 760px) {
+  .banner {
+    &__container {
+      h1 {
+        font-size: 48px;
+      }
     }
   }
 }

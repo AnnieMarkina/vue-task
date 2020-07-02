@@ -1,20 +1,15 @@
 .banner {
   &__svg {
-    display: relative;
-    color: red;
-  }
-
-  img {
-    display: relative;
-    left: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: -112px;
+    max-width: 608.38px;
+    height: auto;
   }
 }
 
   #svg {
-    position: absolute;
-    top: 7px;
-    left: 28%;
-    width: 608.38px;
+    width: 100%;
     height: 726.48px;
     stroke-dasharray: 1917.79;
     stroke-dashoffset: 0;
@@ -29,3 +24,43 @@
       stroke-dashoffset: 0;
     }
   }
+
+@media (max-width: 1024px) {
+  .banner {
+    &__svg {
+      top: -150px;
+      width: 506px;
+      height: 605px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    &__svg {
+      top: -30px;
+      width: 628px;
+      height: 789px;
+    }
+  }
+}
+
+@media (max-width: 645px) {
+  .banner {
+    &__svg {
+      top: -180px;
+      width: 392px;
+      height: 493px;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .banner {
+    &__svg {
+      top: -200px;
+      width: 339px;
+      height: 429px;
+    }
+  }
+}
